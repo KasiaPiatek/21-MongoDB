@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
     useMongoClient: true
 });*/
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://Kasia:makaron@ds239309.mlab.com:39309/database-1', {
+mongoose.connect('mongodb://localhost/nodeappdatabase', {
     useMongoClient: true
 });
 
